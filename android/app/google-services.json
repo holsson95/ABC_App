@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "885400763379",
+    "project_id": "abc-chart-behavior-duo",
+    "storage_bucket": "abc-chart-behavior-duo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885400763379:android:3119e383ca3fff0d44f086",
+        "android_client_info": {
+          "package_name": "com.behaviorduo.abcchart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885400763379-ie8t24dn12eu330i8upk8n01r7onf966.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.behaviorduo.abcchart",
+            "certificate_hash": "3107d8d5d01a95bddf791d6edfdc7ed31f9130c0"
+          }
+        },
+        {
+          "client_id": "885400763379-0cp19amj7s6th3tn3kgl6eplcgnvsp4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClN2ktN58tzB1iPwJEUns6v-UX1wy66Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885400763379-0cp19amj7s6th3tn3kgl6eplcgnvsp4c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885400763379-gm1816qro066knh6fbhr24t7tub7cpn0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.behaviorduo.abcchart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
