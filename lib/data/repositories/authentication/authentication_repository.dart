@@ -2,6 +2,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_1/features/authentication/screens/dashboard/dashboard_page.dart';
 import 'package:flutter_application_1/features/authentication/screens/login/login.dart';
 import 'package:flutter_application_1/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:flutter_application_1/features/authentication/screens/signup/widgets/verify_email.dart';
@@ -34,7 +35,7 @@ class AuthenticationRepository extends GetxController{
     final user = _auth.currentUser;
     if(user !=null){
       if(user.emailVerified){
-        Get.offAll(() => const NavigationMenu());
+        Get.offAll(() => DashboardPage());
         } else{
         Get.offAll(() => VerifyEmail(email: _auth.currentUser?.email));
       } 

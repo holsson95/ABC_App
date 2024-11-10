@@ -5,9 +5,8 @@ import 'package:flutter_application_1/utils/helpers/helper_functions.dart';
 import 'package:get/get.dart';
 
 class DashboardPage extends StatelessWidget {
-  final String userName;
   
-  DashboardPage({required this.userName});
+  DashboardPage();
 
   @override
   Widget build(BuildContext context) {
